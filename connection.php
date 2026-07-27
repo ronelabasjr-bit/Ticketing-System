@@ -4,7 +4,7 @@ session_start();
 
 $servername = 'localhost';
 $username = 'root';
-$password = 'admin123';
+$password = '';
 $dbname = 'ticketing_db';
 
 $conn = new mysqli($servername, $username, $password, $dbname);
